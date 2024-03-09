@@ -1,0 +1,49 @@
+.project2{
+    border: 2px solid black;
+    width: 500px;
+    height: 600px;
+    background: url("bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    filter: brightness(1);
+    box-shadow: 0px 0px 20px;
+form{
+    display: block;
+    padding: 20px;
+    height: 100%;
+    width: 80%;
+    backdrop-filter: brightness('40%');
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1{
+    font-family: ;
+    font-size: 50px;
+    margin-bottom: 50px;
+    filter: brightness(0.5);
+
+}
+h2{
+    font-weight: normal;
+    font-size: 1rem;
+    color: white;
+}
+input{
+    height: 30px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 10px;
+    
+}
+button{
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    
+}
